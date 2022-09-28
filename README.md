@@ -4,4 +4,4 @@ Team Mates:
   Megalingam R
   Sanjana S
   Sharon Priyadharshini T
-  Sakthivel
+  Sakthivel R
