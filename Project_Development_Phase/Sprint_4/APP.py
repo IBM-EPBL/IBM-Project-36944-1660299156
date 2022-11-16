@@ -8,7 +8,7 @@ from flask import send_from_directory
 from joblib import Parallel,delayed
 import joblib
 import pandas as pd
-from scipy.sparse import issparse
+from scipy.sparse import ISSPARSE
 import pickle
 import requests
 
@@ -45,7 +45,7 @@ def upload():
 
         # gh=joblib.load('C:/Users/Megalingam/Desktop/IBM/IBM-Project-36944-1660299156/Project_Development_Phase/Sprint_3/rdf.pkl')
         # num=gh.predict(df)
-        
+
         a=''
         lend_data=int(lend_data)
 
