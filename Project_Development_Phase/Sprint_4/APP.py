@@ -8,7 +8,7 @@ from flask import send_from_directory
 from joblib import Parallel,delayed
 import joblib
 import pandas as pd
-from scipy.sparse import ISSPARSE
+from scipy.sparse import issparse
 import pickle
 import requests
 
@@ -49,7 +49,7 @@ def upload():
         a=''
         lend_data=int(lend_data)
 
-        data_list = data.tolist()
+        data_list = data
 
         payload_scoring = {"input_data": [{"fields": ['gender','married','depend','education','self_emp','applicant_income','co_income','loan_amount','loan_term','credit_history','property_area'], "values": data_list}]}
 
