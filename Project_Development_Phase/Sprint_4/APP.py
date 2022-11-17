@@ -7,7 +7,7 @@ from gevent.pywsgi import WSGIServer
 from flask import send_from_directory
 from joblib import Parallel,delayed
 import joblib
-import pandas as pd
+import pandas as PD
 from scipy.sparse import issparse
 import pickle
 import requests
